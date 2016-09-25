@@ -1,0 +1,18 @@
+[Unit]
+Description=Prometheus machine data exporter
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/node_exporter
+ExecStart=/usr/bin/node_exporter \
+          -log.level $LOG_LEVEL \
+          -web.listen-address $LISTEN_ADDRESS \
+          -web.telemetry-path $TELEMETRY_PATH
+Type=simple
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target

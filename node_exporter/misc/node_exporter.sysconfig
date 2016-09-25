@@ -1,0 +1,4 @@
+# prometheus node_exporter configuration
+LOG_LEVEL="info"
+LISTEN_ADDRESS=":9100"
+TELEMETRY_PATH="/metrics"
