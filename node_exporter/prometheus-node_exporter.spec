@@ -45,6 +45,10 @@ install -m644 -D misc/node_exporter.sysconfig $RPM_BUILD_ROOT/etc/sysconfig/node
 %doc VERSION
 
 %changelog
+* Sun Sep 25 2016 Joshua Hoffman <joshua@joshua.net> - 0.12.0-3
+- Added sysconfig style configuration
+
+
 * Sun Sep 25 2016 Joshua Hoffman <joshua@joshua.net> - 0.12.0-2
 - Initial build
 
