@@ -1,0 +1,6 @@
+# prometheus metrics system
+LOG_LEVEL="info"
+LISTEN_ADDRESS=":9090"
+CONFIG_FILE="/etc/prometheus/prometheus.yml"
+CONSOLE_TEMPLATES="/usr/share/prometheus/consoles"
+CONSOLE_LIBRARIES="/usr/lib/prometheus/console_libraries"
