@@ -5,7 +5,6 @@ VERSION := 0.12.0
 RELEASE := 3.el7.centos
 
 GIT_HASH := 3ac6f86
-#GIT_URL := https://github.com/prometheus/node_exporter/tarball/$(GIT_HASH)
 GIT_URL := https://github.com/prometheus/node_exporter
 SPECFILE := $(NAME).spec
 RPM_TOPDIR := rpmdev
