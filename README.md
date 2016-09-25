@@ -1,15 +1,13 @@
 # Prometheus RPMS
-Automated builds of Prometheus and friends for Enterprise Linux
+Prometheus monitoring systems packaged for Enterprise Linux
+
+These packages are ready to run with systemd unit files and sysconfig
+integration.
 
 ## Releases
-The RPMS from this project are available in a [packagecloud repo](https://packagecloud.io/promethean/prometheus):
+The RPMS from this project are available via a the [Promethean RPM repo](https://packagecloud.io/promethean/prometheus).
 
-* [prometheus-1.1.3-1.el7.centos.x86_64.rpm](https://packagecloud.io/promethean/prometheus/packages/el/7/prometheus-1.1.3-1.el7.centos.x86_64.rpm)
-* [prometheus-1.1.3-1.el7.centos.src.rpm](https://packagecloud.io/promethean/prometheus/packages/el/7/prometheus-1.1.3-1.el7.centos.src.rpm)
-* [prometheus-node_exporter-0.12.0-3.el7.centos.x86_64.rpm](https://packagecloud.io/promethean/prometheus/packages/el/7/prometheus-node_exporter-0.12.0-3.el7.centos.x86_64.rpm)
-* [prometheus-node_exporter-0.12.0-3.el7.centos.src.rpm](https://packagecloud.io/promethean/prometheus/packages/el/7/prometheus-node_exporter-0.12.0-3.el7.centos.src.rpm)
-
-## Package Repo
+## Promethean RPM Repository
 Use the following config for yum to access the repo:
 
     [promethean]
