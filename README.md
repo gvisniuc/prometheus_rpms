@@ -1,4 +1,4 @@
-# prometheus_rpms
+# Prometheus RPMS
 Automated builds of Prometheus and friends for Enterprise Linux
 
 ## Releases
