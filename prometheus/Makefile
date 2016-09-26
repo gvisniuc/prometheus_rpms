@@ -12,7 +12,7 @@ MOCK_CFG := mock-centos-7-x86_64.cfg
 RPMBUILD := rpmbuild
 CURL := curl
 GIT := git
-MOCK := sudo mock
+MOCK := /usr/bin/mock
 
 
 $(NAME)-$(VERSION)-$(RELEASE).x86_64.rpm : $(NAME)-$(VERSION)-$(RELEASE).src.rpm $(MOCK_CFG)
