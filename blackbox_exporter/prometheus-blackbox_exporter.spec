@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           prometheus-blackbox_exporter
-Version:        0.2.0
+Version:        0.5.0
 Release:        1%{?dist}
 Summary:        Prometheus blackbox probe exporter
 
