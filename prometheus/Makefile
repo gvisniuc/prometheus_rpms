@@ -1,10 +1,10 @@
 # vim:noexpandtab:nosmarttab:ts=8 sw=8
 
 NAME := prometheus
-VERSION := 1.1.3
+VERSION := 1.4.1
 RELEASE := 1.el7.centos
 
-GIT_HASH := ac374aa 
+GIT_HASH :=  2a89e87
 GIT_URL := https://github.com/prometheus/prometheus
 SPECFILE := $(NAME).spec
 RPM_TOPDIR := rpmdev

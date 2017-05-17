@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           prometheus
-Version:        1.1.3
+Version:        1.4.1
 Release:        1%{?dist}
 Summary:        Prometheus metrics system
 
