@@ -1,8 +1,8 @@
 %define debug_package %{nil}
 
 Name:           prometheus-node_exporter
-Version:        0.12.0
-Release:        3%{?dist}
+Version:        0.14.0
+Release:        1%{?dist}
 Summary:        Prometheus exporter for machine metrics
 
 License:        Apache 2.0

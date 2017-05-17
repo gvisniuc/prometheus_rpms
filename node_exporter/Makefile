@@ -1,10 +1,10 @@
 # vim:noexpandtab:nosmarttab:ts=8 sw=8
 
 NAME := prometheus-node_exporter
-VERSION := 0.12.0
-RELEASE := 3.el7.centos
+VERSION := 0.14.0
+RELEASE := 1.el7.centos
 
-GIT_HASH := 3ac6f86
+GIT_HASH := 840ba5d
 GIT_URL := https://github.com/prometheus/node_exporter
 SPECFILE := $(NAME).spec
 RPM_TOPDIR := rpmdev
