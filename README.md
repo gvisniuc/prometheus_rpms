@@ -5,7 +5,7 @@ These packages are ready to run with systemd unit files and sysconfig
 integration.
 
 ## Releases
-The RPMS from this project are available via a the [Promethean RPM repo](https://packagecloud.io/promethean/prometheus).
+The RPMS from this project are built and hosted on [Fedora Copr](https://copr.fedorainfracloud.org/coprs/oshu/).
 
 ## Promethean RPM Repository
 Use the following config for yum to access the repo:
