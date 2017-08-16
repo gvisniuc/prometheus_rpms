@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           prometheus
-Version:        1.4.1
+Version:        1.7.1
 Release:        1%{?dist}
 Summary:        Prometheus metrics system
 
@@ -10,7 +10,7 @@ URL:            https://github.com/prometheus/prometheus
 Source0:        %{name}-%{version}.tar.gz
 Source1:        %{name}-misc.tar.gz
 
-BuildRequires:  golang
+BuildRequires:  golang >= 1.8
 BuildRequires:  git
 Requires:       glibc
 
