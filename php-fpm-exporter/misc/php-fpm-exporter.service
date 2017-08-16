@@ -1,0 +1,18 @@
+[Unit]
+Description=Prometheus apache data exporter
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/php-fpm-exporter
+ExecStart=/usr/bin/php-fpm-exporter \
+          --addr "$LISTEN_ADDRESS" \
+          --endpoint "$PHP_FPM_ENDPOINT"
+
+Type=simple
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target
