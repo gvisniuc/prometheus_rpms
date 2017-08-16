@@ -1,0 +1,19 @@
+[Unit]
+Description=Prometheus apache data exporter
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/sysconfig/apache_exporter
+ExecStart=/usr/bin/apache_exporter \
+          -telemetry.endpoint "$TELEMETRY_ENDPOINT" \
+          -telemetry.address "$TELEMETRY_ADDRESS" \
+          -scrape_uri "$SCRAPE_URI"
+
+Type=simple
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+
+[Install]
+WantedBy=multi-user.target

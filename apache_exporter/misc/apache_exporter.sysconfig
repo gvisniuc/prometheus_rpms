@@ -1,0 +1,3 @@
+# prometheus apache_exporter configuration
+TELEMETRY_ENDPOINT="/metrics"
+TELEMETRY_ADDRESS=":9117"
