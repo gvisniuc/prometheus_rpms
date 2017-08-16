@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 Name:           prometheus-blackbox_exporter
-Version:        0.5.0
+Version:        0.8.1
 Release:        1%{?dist}
 Summary:        Prometheus blackbox probe exporter
 
@@ -46,6 +46,7 @@ install -m644 -D blackbox.yml $RPM_BUILD_ROOT/etc/prometheus/exporters/blackbox.
 %doc VERSION
 
 %changelog
+* Tue Aug 15 2017 George Visniuc <george@usabilla.com> - 0.8.1-1
+- Updated to 0.8.1
 * Sun Sep 25 2016 Joshua Hoffman <joshua@joshua.net> - 0.2.0-1
 - Initial commit
-

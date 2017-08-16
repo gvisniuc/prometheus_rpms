@@ -1,10 +1,10 @@
 # vim:noexpandtab:nosmarttab:ts=8 sw=8
 
 NAME := prometheus-blackbox_exporter
-VERSION := 0.5.0
+VERSION := 0.8.1
 RELEASE := 1.el7.centos
 
-GIT_HASH := e4fab5f
+GIT_HASH := 9741061
 GIT_URL := https://github.com/prometheus/blackbox_exporter
 SPECFILE := $(NAME).spec
 RPM_TOPDIR := rpmdev
