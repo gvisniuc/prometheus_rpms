@@ -39,6 +39,6 @@ install -m644 -D misc/apache_exporter.sysconfig $RPM_BUILD_ROOT/etc/sysconfig/ap
 
 
 %changelog
-* Tue Aug 15 2017 Joshua Hoffman <joshua@joshua.net> - 0.3-1
+* Wed Aug 16 2017 George Visniuc <george@usabilla.com> - 0.3-1
 - Initial commit
 

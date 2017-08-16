@@ -1,3 +1,4 @@
 # prometheus apache_exporter configuration
 TELEMETRY_ENDPOINT="/metrics"
 TELEMETRY_ADDRESS=":9117"
+SCRAPE_URI="http://localhost/server-status/?auto"
