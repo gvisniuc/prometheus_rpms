@@ -2,7 +2,7 @@
 
 Name:           prometheus-apache_exporter
 Version:        0.3
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Prometheus apache exporter
 
 License:        Apache 2.0
@@ -39,6 +39,8 @@ install -m644 -D misc/apache_exporter.sysconfig $RPM_BUILD_ROOT/etc/sysconfig/ap
 
 
 %changelog
+* Thu Aug 17 2017 George Visniuc <george@usabilla.com> - 0.3-2
+- Added scrape uri parameter
 * Wed Aug 16 2017 George Visniuc <george@usabilla.com> - 0.3-1
 - Initial commit
 

@@ -2,7 +2,7 @@
 
 NAME := prometheus-apache_exporter
 VERSION := 0.3
-RELEASE := 1.el7.centos
+RELEASE := 2.el7.centos
 
 GIT_HASH := c1cfe73
 GIT_URL := https://github.com/neezgee/apache_exporter
